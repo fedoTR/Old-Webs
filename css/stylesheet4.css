@@ -1,0 +1,25 @@
+h2{
+	text-align: center;
+	color: white;
+}
+
+.titulo{
+	background-color: blue;
+	border-style: solid;
+}
+
+body{
+	background-color: #D2FAFF;
+}
+
+.facebook{
+	height: 1cm;
+	width: 1cm;
+	float: left;
+}
+
+.instagram{
+	height: 1cm;
+	width: 1cm;
+	float: left;
+}

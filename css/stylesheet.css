@@ -1,0 +1,42 @@
+.marquesina{
+	background-color: lightpink;
+}
+
+body{
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.titulo{
+	background-color: black;
+	text-align: center;
+}
+
+.footer{
+	right:0;
+	position: fixed;
+	bottom: 0;
+}
+
+#navmenu ul{
+	margin-left: 5cm;
+}
+
+#navmenu li{
+	text-align: center;
+	float: left;
+	list-style-type: none;
+	width: 6cm;
+	background-color: pink;
+	border-style: outset;
+}
+
+.formulario-ad{
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px;
+	width: 10cm;
+	margin: auto;
+}

@@ -1,0 +1,57 @@
+body{
+	background-color: black;
+}
+
+.musica-cabecera{
+	text-align: center;
+	height: 3cm;
+	border-style: outset;
+	border-color: blue;
+	background-image: url(../sources/music-fondo.jpg);
+	background-color: black;
+	display: block;
+	top: 50px;
+	background-size: 100% 100%;
+}
+
+.musica-logo{
+	text-align: center;
+	width: 15cm;
+	padding-top: 20px;
+}
+
+#menu{
+	float: left;
+	margin-top: 1cm;
+	border-style: solid;
+	background-color: #00198D;
+	width: 5cm;
+	box-shadow: 10px 10px 15px white;
+}
+
+#menu p{
+	font-size: 20px;
+	color: white;
+}
+#menu li{
+	color: white;
+}
+
+#tabla{
+	margin-top: 1cm;
+	float: right;
+	border-style: outset;
+	border-color: lightpink;
+	margin-right: 1cm;
+}
+
+#tabla th{
+	color: white;
+}
+
+#tabla td{
+	color: white;
+	text-align: center;
+	border-style: solid;
+	border-color: #292A30;
+}

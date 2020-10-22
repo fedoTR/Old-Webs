@@ -1,0 +1,21 @@
+.header{
+	border-style: solid;
+	border-color: black;
+	height: 5cm;
+	background-color: black;
+	text-align: center;
+}
+
+body{
+	background-color: #FFDFDF;
+}
+
+.titlescreen{
+	width: 12cm;
+	height: 8cm;
+}
+
+.painelemental{
+	width: 14cm;
+	height: 8cm;
+}
