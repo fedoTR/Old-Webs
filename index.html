@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<title>Proyecto</title>
+</head>
+<body id="texto">
+	<div class="titulo">
+		<a href="index.html"><img src="sources/portal.png"></a>
+	</div>
+	<marquee class="marquesina"; behavior="alternate">¡Bienvenida o Bienvenido!</marquee>
+	<p>Bienvenido al Portal, siéntete libre de visitarlo cuantas veces quieras, visita cada una de las páginas y deja un comentario al final!<br>Siéntete como en casa!</p>
+	<!--Footer-->
+	<div class="footer">
+		<p>¿Dudas o sugerencias? Puedes escribirme en mi correo: <a href="mailto:numerocuarentayuno@gmail.com">Pincha aquí!</a></p>
+		<p style="font-size: 10px">Por: Ely Federico Torres Rodríguez</p>
+	</div>
+	<div id="navmenu">
+		<ul>
+			<a href="hobbies.html"><li>Hobbies</li></a>
+			<a href="secret.html"><li>El proyecto secreto</li></a>
+			<a href="contact.html"><li>Contáctos</li></a>
+			<a href="media.html"><li>Música/Videos</li></a>
+		</ul>
+	</div>
+	<p><br><br><br>Este es el index de El Portal, este index lleva a varias direcciones de este asombroso sitio, cada sección está hecha en base a aspectos y cosas mías, algunas pueden ser extrañas o bizarras, otras tranquilas o curiosas. Durante un tiempo he buscado el método para expresar lo que llevo dentro de mi, lo que hay en mi cabeza, por eso aprovecho esta página para expresar todo lo que pueda, eso es todo...<br>
+	Disfruta de tu estancia! ;)</p>
+	<div class="formulario-ad">
+		<p style="text-align: center; font-family: Cooper; text-shadow: -4px 4px 6px pink; font-size: 24px;"><b>¡Cuando termines el recorrido, por favor, contesta este formulario!</b></p>
+	</div>
+	<!--Formulario-->
+	<form action="index.html">
+		Ingresa tu nombre: <br> 
+		<input type="text" name="nombre">
+		<br>
+		Ingresa tus apellidos: <br>
+		<input type="text" name="apellidos">
+		<br>
+		Sexo: <br>
+		<input type="radio" name="sexo" value="Hombre">Hombre<br>
+		<input type="radio" name="sexo" value="Mujer">Mujer<br>
+		<input type="radio" name="sexo" value="No tengo sexo">Otro<br>
+		<br>
+		¿Qué le pareció El Portal?
+		<br>
+		<select name="points">
+			<option value="Mala">Mala</option>
+			<option value="Meh">Meh</option>
+			<option value="Buena">Buena</option>
+			<option value="Muy buena">Muy buena</option>
+			<option value="Excelente">¡Excelente!</option>
+			<option value="Sublime">Sublime *-*</option>
+		</select>  
+		<br><br>
+		¿Cuál fue tu sección favorita?<br>
+		<input type="checkbox" name="Hobbies">Hobbies<br>
+		<input type="checkbox" name="El proyecto secreto">El proyecto secreto<br>
+		<input type="checkbox" name="Contactos">Contácto<br>
+		<input type="checkbox" name="media">Música/Videos<br>
+		<br>
+		Escribe un comentario:<br>
+		<textarea name="message" rows="10" cols="30"></textarea><br>
+		 <input type="submit" value="Submit">
+		 <input type="reset" name="Reset">
+	</form>
+</body>
+</html>
